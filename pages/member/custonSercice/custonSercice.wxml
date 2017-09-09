@@ -1,0 +1,8 @@
+  <view class="page-body">
+      <text class="page-body-title">
+        点击图标进行意见反馈
+      </text>
+      <view class="page-body-line">
+        <contact-button size="60" session-from="weapp"></contact-button>
+      </view>
+    </view>

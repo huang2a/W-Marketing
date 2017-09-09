@@ -1,0 +1,15 @@
+.page-body{
+    padding: 20rpx;
+    text-align: center
+}
+.page-body-title{
+    font-size: 28rpx;
+    color: #666666;
+    padding: 40rpx;
+}
+.page-body-line{
+    padding-top: 20rpx;
+}
+.page-body-line contact-button{
+    color: #f55d54;
+}

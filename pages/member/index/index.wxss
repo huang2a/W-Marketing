@@ -1,0 +1,74 @@
+.userinfo-box{
+    background: #f55d54;
+    padding: 40rpx 0 120rpx 0;
+    text-align: center;
+    border-bottom-left-radius: 10rpx;
+    border-bottom-right-radius: 10rpx;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx auto;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #fff;
+  font-size: 28rpx;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.margin-top80{
+    margin-top: -80rpx;
+}
+.user-list{
+    margin: 20rpx 30rpx;
+    padding: 20rpx;
+    background: #fff;
+    border: #dedede solid 1px;
+    border-radius: 10rpx;
+    box-shadow: 0 8rpx 20rpx rgba(0, 0, 0, 0.20);
+    color: #666666;
+}
+.user-list .title{
+    padding:0 0  20rpx 0;
+    border-bottom: #dedede solid 1px;
+    font-size: 28rpx;
+}
+.user-list .flex-wrp{
+    display: -webkit-box;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    flex-direction:row;
+}
+.user-list .flex-item{
+    -webkit-box-flex: 1;
+    width: 100%;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    padding: 30rpx 0;
+}
+.user-list .flex-item .icon{
+    width: 40rpx;
+    height: 40rpx;
+    margin-bottom: 10rpx;
+}
+.user-list .flex-item .text{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #666666;
+    font-size: 24rpx;
+}

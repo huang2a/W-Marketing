@@ -1,0 +1,55 @@
+<view class="userinfo-box">
+  <view class="userinfo">
+    <block wx:if="{{hasUserInfo}}">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+    <button wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+  </view>
+</view>
+<view class=' margin-top80'>
+    <view class='user-list'>
+        <view class='title'>订单中心</view>
+        <view class="flex-wrp">
+            <view class="flex-item" bindtap='navigateToOrder'>
+                <image src='http://ovw9tcg5z.bkt.clouddn.com/icon-dingdan.png' class='icon' ></image>
+                <view class='text'>我的订单</view>    
+            </view>
+            <view class="flex-item" bindtap='getUseraAddress'>
+                <image src='http://ovw9tcg5z.bkt.clouddn.com/icon-dizhi.png' class='icon' ></image>
+                <view class='text'>我的地址</view>    
+            </view>
+            <!-- <view class="flex-item" >
+                <image src='http://ovw9tcg5z.bkt.clouddn.com/icon-xiaoxi.png' class='icon' ></image>
+                <view class='text'>我的消息</view>    
+            </view> -->
+            <view class="flex-item" bindtap='navigateToSercice'>
+                <image src='http://ovw9tcg5z.bkt.clouddn.com/icon-fangkuai.png' class='icon' ></image>
+                <view class='text'>意见反馈</view>    
+            </view>
+        </view>
+    </view>
+</view>
+<view class=''>
+    <view class='user-list'>
+        <view class='title'>商家中心</view>
+        <view class="flex-wrp" style="flex-direction:row;">
+            <view class="flex-item" bindtap='navigateToMiaosha'>
+                <image src='http://ovw9tcg5z.bkt.clouddn.com/icon-dingdan.png' class='icon' ></image>
+                <view class='text'>秒杀活动</view>    
+            </view>
+            <view class="flex-item" bindtap='toastUsermember'>
+                <image src='http://ovw9tcg5z.bkt.clouddn.com/icon-pingtuan.png' class='icon' ></image>
+                <view class='text'>拼团活动</view>    
+            </view>
+            <!-- <view class="flex-item" bindtap='toastUsermember'>
+                <image src='http://ovw9tcg5z.bkt.clouddn.com/icon-kangjia.png' class='icon' ></image>
+                <view class='text'>砍价活动</view>    
+            </view> -->
+            <view class="flex-item" bindtap='navigateToHelpcenter'>
+                <image src='http://ovw9tcg5z.bkt.clouddn.com/icon-bangzhu.png' class='icon' ></image>
+                <view class='text'>帮助中心</view>    
+            </view>
+        </view>
+    </view>
+</view>

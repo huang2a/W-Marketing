@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/miaosha/launch/launch",
+    "pages/miaosha/shoping/shoping",
+    "pages/miaosha/submit-orders/list/list",
+    "pages/member/index/index",
+    "pages/member/helpCenter/helpCenter",
+    "pages/member/order/order",
+    "pages/member/miaosha/shoplist/shoplist",
+    "pages/member/custonSercice/custonSercice",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#f55d54",
+    "navigationBarTitleText": "社群营销助手+",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#e9ecf3"
+  }
+}

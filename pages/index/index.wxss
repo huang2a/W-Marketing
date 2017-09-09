@@ -1,0 +1,35 @@
+/**index.wxss**/
+.plug-bg{
+    background: url(http://ovw9tcg5z.bkt.clouddn.com/miaosha-banner.jpg) center no-repeat;
+}
+.group-bg{
+    background: url(http://ovw9tcg5z.bkt.clouddn.com/pingtuan-banner.jpg) center no-repeat;
+}
+.plug-list{
+  padding-bottom: 0;
+  color: #fff;
+  background-size: 100%;
+}
+.mask-box{
+  background: rgba(0, 0, 0, 0.37);
+  margin:-20rpx -30rpx;
+  padding: 20rpx 30rpx;
+  border-top-right-radius: 10rpx;
+  border-top-left-radius: 10rpx;
+}
+.mask-box .title{
+  font-size: 36rpx;
+  padding-bottom: 20rpx;
+}
+.mask-box .intro{
+  font-size: 28rpx;
+  line-height: 40rpx;
+  padding-bottom: 20rpx;
+}
+.plug-list .bottom{
+  background: #fff;
+  margin: 20rpx -30rpx 0 -30rpx;
+  padding: 20rpx 30rpx;
+  border-bottom-left-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+}
